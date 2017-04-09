@@ -1,0 +1,1 @@
+openmrs-module-initializer configuration for the OpenMRS distribution for Cambodia.
