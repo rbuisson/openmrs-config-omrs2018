@@ -13,9 +13,13 @@
       <value></value>
     </globalProperty>
     <globalProperty>
+      <property>emr.primaryIdentifierType</property>
+      <value>8d793bee-c2cc-11de-8d13-0010c6dffd0f</value>
+    </globalProperty>
+    <globalProperty>
       <property>emr.extraPatientIdentifierTypes</property>
       <value>
-        0d2ac572-8de3-46c8-9976-1f78899c599f,d362f8ff-e5f3-49b0-bf2e-888d4774d130,8d79403a-c2cc-11de-8d13-0010c6dffd0f,c3a617ba-a79b-4542-a442-37c858e08a15</value>
-    </globalProperty>
-  </globalProperties>
-</config>
+        0d2ac572-8de3-46c8-9976-1f78899c599f,74f23d28-fb30-48fa-ae0f-5a0f81a350b3,8816b04b-1cdf-4113-bef8-52dbe575ea78,8d79403a-c2cc-11de-8d13-0010c6dffd0f</value>
+      </globalProperty>
+    </globalProperties>
+  </config>
