@@ -1,0 +1,35 @@
+<config>
+  <identifierSources>
+    <identifierSource>
+      <uuid>c1d8a345-3f10-11e4-adec-0800271c1b75</uuid>
+      <retired>true</retired>
+    </identifierSource>
+    <identifierSource>
+      <uuid>c1d90956-3f10-11e4-adec-0800271c1b75</uuid>
+      <retired>true</retired>
+    </identifierSource>
+    <identifierSource>
+      <uuid>c1dbd8bd-3f10-11e4-adec-0800271c1b75</uuid>
+      <retired>true</retired>
+    </identifierSource>
+    <identifierSource>
+      <uuid>c1e39ece-3f10-11e4-adec-0800271c1b75</uuid>
+      <retired>true</retired>
+    </identifierSource>
+    <identifierSource>
+      <uuid>a1a7e96e-83b3-4c1c-b0c6-f24710e62a97</uuid>
+      <retired>true</retired>
+    </identifierSource>
+    <sequentialIdentifierGenerator>
+      <name>OpenMRS ID generator</name>
+      <description>Sequential generator for the OpenMRS Identifier</description>
+      <identifierType>
+        <name>PATIENTIDENTIFIERTYPE_1_OPENMRS_ID</name>
+      </identifierType>
+      <firstIdentifierBase>001000</firstIdentifierBase>
+      <minLength>7</minLength>
+      <maxLength>7</maxLength>
+      <baseCharacterSet>0123456789</baseCharacterSet>
+    </sequentialIdentifierGenerator>
+  </identifierSources>
+</config>
