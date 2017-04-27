@@ -29,6 +29,7 @@
       <firstIdentifierBase>001000</firstIdentifierBase>
       <minLength>7</minLength>
       <maxLength>7</maxLength>
+      <prefix></prefix>
       <baseCharacterSet>0123456789</baseCharacterSet>
     </sequentialIdentifierGenerator>
   </identifierSources>
