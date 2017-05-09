@@ -24,7 +24,7 @@
       <name>OpenMRS ID generator</name>
       <description>Sequential generator for the OpenMRS Identifier</description>
       <identifierType>
-        <name>PATIENTIDENTIFIERTYPE_1_OPENMRS_ID</name>
+        <name>metadata.patientIdentifierType.1.openmrsId.name</name>
       </identifierType>
       <firstIdentifierBase>001000</firstIdentifierBase>
       <minLength>7</minLength>
