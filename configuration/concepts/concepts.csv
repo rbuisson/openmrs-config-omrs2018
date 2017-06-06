@@ -318,4 +318,8 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:k
 ,,,Cambodia_Prevention Education,Cambodia_Prevention Education,Prevention Education,អប់រំពីការពារធ្មេញ,,,Question,Boolean,,,,
 ,,,Cambodia_Prevention Fluoride,Cambodia_Prevention Fluoride,Prevention Fluoride,ការពារដោយ​ Fluoride,,,Question,Boolean,,,,
 ,,,Cambodia_Dental Exam Form,Cambodia_Dental Exam Form,Dental Exam,,,,ConvSet,N/A,,Cambodia_Missing Teeth; Cambodia_Teeth Extracted; Cambodia_Teeth Filled;Cambodia_Small Dental Surgery Set; Cambodia_Scalling; Cambodia_Prevention Education; Cambodia_Prevention Fluoride,,
+,,,Cambodia_Lab Test Notes,Cambodia_Lab Test Notes,Notes,,,,Question,Text,,,,
+,,,Cambodia_Lab Test Document,Cambodia_Lab Test Document,Lab Test Document,,,,Image,ImageUrlHandler,,,,
+,,,Cambodia_Lab Test Summary,Cambodia_Lab Test Summary,Summary,,,,ConvSet,N/A,,Cambodia_Lab Test Notes; Cambodia_Lab Test Document,,
+,,,Lab order fulfillment form,Lab order fulfillment form,Lab order fulfillment form,,,,ConvSet,N/A,,Cambodia_Lab Test Summary,,
 9d91cb77-3f10-11e4-adec-0800271c1b75,,,All Observation Templates,All Observation Templates,All Observation Templates,,,,ConvSet,N/A,,Cambodia_Vital Signs Extended Form; Cambodia_Chief Complaint Form; Cambodia_Past Medical History Form; Cambodia_Review of Systems Form; Cambodia_Physical Exam Form; Cambodia_Dental Exam Form; Cambodia_Immunizations Form; Cambodia_Allergies Form;,,
