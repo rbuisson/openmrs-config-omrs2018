@@ -374,3 +374,5 @@ c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Ch
 ,,,Cambodia_Zone B,Cambodia_Zone B,Zone B,,,,Misc,N/A,,,,
 ,,,Cambodia_Zone C,Cambodia_Zone C,Zone C,,,,Misc,N/A,,,,
 acf4c89a-1731-430a-aefd-a5db1fe96ee8,,,Cambodia_Distance from Health Center,Cambodia_Distance from Health Center,Distance from Health Center,,,,Question,Coded,Cambodia_Zone A; Cambodia_Zone B; Cambodia_Zone C;,,,
+,,,Cambodia_Referred From,Cambodia_Referred From,Referred from,បញ្ចូនមកពី,,,Question,Text,,,,
+,,,Cambodia_Referred From Set,Cambodia_Referred From Set,Referral,បញ្ចូនមកពី,,,ConvSet,N/A,,Cambodia_Referred From,,
