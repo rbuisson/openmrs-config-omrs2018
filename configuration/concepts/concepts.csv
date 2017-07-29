@@ -30,7 +30,7 @@ c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Ch
 ,,,Cambodia_BCG Set,Cambodia_BCG Set,BCG,,,,Misc,N/A,,"Cambodia_BCG; Cambodia_BCG, Date Given",,,,,
 ,,,"Cambodia_HepB at birth, between 24h and 3 days","Cambodia_HepB at birth, between 24h and 3 days",Between 24h and 3 days,,,,Misc,N/A,,,,,,,
 ,,,"Cambodia_HepB at birth, less than 24h","Cambodia_HepB at birth, less than 24h",Less than 24h,,,,Misc,N/A,,,,,,,
-,,,"Cambodia_HepB at birth, time administrered after birth","Cambodia_HepB at birth, time administrered after birth",When was the vaccin admnistered?,,,,Question,Coded,"Cambodia_HepB at birth, less than 24h; Cambodia_HepB at birth, between 24h and 3 days; ",,,,,,
+,,,"Cambodia_HepB at birth, time administrered after birth","Cambodia_HepB at birth, time administrered after birth",When was the vaccine administered?,,,,Question,Coded,"Cambodia_HepB at birth, less than 24h; Cambodia_HepB at birth, between 24h and 3 days; ",,,,,,
 ,,,Cambodia_HepB at birth,Cambodia_HepB at birth,HepB at Birth,,,,Question,Boolean,,,,,,,
 ,,,Cambodia_Polio1,Cambodia_Polio1,"Polio, 1st Injection",,,,Question,Boolean,,,,,,,
 ,,,"Cambodia_Polio1, Date Given","Cambodia_Polio1, Date Given",Date given,,,,Question,Date,,,,,,,
