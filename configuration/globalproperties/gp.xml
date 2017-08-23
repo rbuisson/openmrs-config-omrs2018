@@ -5,6 +5,10 @@
       <value>true</value>
     </globalProperty>
     <globalProperty>
+      <property>default_locale</property>
+      <value>km</value>
+    </globalProperty>
+    <globalProperty>
       <property>locale.allowed.list</property>
       <value>en, km</value>
     </globalProperty>
@@ -20,6 +24,6 @@
       <property>bahmni.extraPatientIdentifierTypes</property>
       <value>
         43ea64a0-5727-492c-81a0-d9b8c7baeef0,91a9d35d-ff9c-455b-8c10-24d6c2c5c71f,3de55f65-908e-4bb6-ab84-ba45091ef968,bf296dc6-3132-4637-a7d1-ca1e8da82e4b</value>
-      </globalProperty>
-    </globalProperties>
-  </config>
+    </globalProperty>
+  </globalProperties>
+</config>
