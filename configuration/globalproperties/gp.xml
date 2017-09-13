@@ -10,7 +10,7 @@
     </globalProperty>
     <globalProperty>
       <property>default_locale</property>
-      <value>km</value>
+      <value>en</value>
     </globalProperty>
     <globalProperty>
       <property>concept.reasonForDeath</property>
