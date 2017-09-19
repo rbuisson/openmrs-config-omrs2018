@@ -23,6 +23,5 @@
   "report.opdconsult.active": "true",
   "report.opdconsult.diagnosisQuestion.concept": "81c7149b-3f10-11e4-adec-0800271c1b75",
   "report.opdconsult.diagnosesList.concept": "Cambodia_Diagnoses",
-  "report.opdconsult.referredTo.concept":"Cambodia_Referred To",
-  "report.opdconsult.hefId.pit":"3de55f65-908e-4bb6-ab84-ba45091ef968"
+  "report.opdconsult.referredTo.concept":"Cambodia_Referred To"
 }
