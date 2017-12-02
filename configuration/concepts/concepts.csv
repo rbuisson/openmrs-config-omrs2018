@@ -1,6 +1,7 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:km,Short name:en,Short name:km,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1100
-,,,WEIGHT,WEIGHT,Weight,ទម្ងន់,,,Misc,Numeric,,,,,,,,,,,
-,,,HEIGHT,HEIGHT,Height,កំពស់,,,Misc,Numeric,,,,,,,,,,,
+,,,WEIGHT,WEIGHT,Weight,ទម្ងន់ (គក),,,Misc,Numeric,,,,TRUE,kg,,,0,700,,
+,,,"WEIGHT, grams","WEIGHT, grams",Weight,ទម្ងន់ (ក្រាម),,,Misc,Numeric,,,,,g,,,0,,,
+,,,HEIGHT,HEIGHT,Height,កំពស់ (សង់​ទី​ម៉ែ​ត),,,Misc,Numeric,,,,,cm,,,0,,,
 ,,,Cambodia_Normal,Cambodia_Normal,Normal,ធម្មតា,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Abnormal,Cambodia_Abnormal,Abnormal,មិនធម្មតា,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Headache,Cambodia_Headache,Headache,ឈឺក្បាល,,,Misc,N/A,,,,,,,,,,,
