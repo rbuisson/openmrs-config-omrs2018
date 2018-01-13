@@ -27,7 +27,7 @@
     </globalProperty>
     <globalProperty>
       <property>bahmniOfflineSync.strategy</property>
-      <value>org.bahmni.module.bahmniOfflineSync.strategy.LocationBasedSyncStrategy</value>
+      <value>org.bahmni.module.bahmniOfflineSync.strategy.AllPatientsSyncStrategy</value>
     </globalProperty>
     
   </globalProperties>
