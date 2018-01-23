@@ -27,8 +27,11 @@
     </globalProperty>
     <globalProperty>
       <property>bahmniOfflineSync.strategy</property>
-      <value>org.bahmni.module.bahmniOfflineSync.strategy.AllPatientsSyncStrategy</value>
+      <value>org.bahmni.module.bahmniOfflineSync.strategy.AddressEntriesSyncStrategy</value>
     </globalProperty>
-    
+    <globalProperty>
+      <property>bahmniOfflineSync.addressEntriesSyncStrategy.addressEntries</property>
+      <value>[{"userGeneratedId":"170401"},{"userGeneratedId":"060807"},{"userGeneratedId":"060203"}]</value>
+    </globalProperty>
   </globalProperties>
 </config>
