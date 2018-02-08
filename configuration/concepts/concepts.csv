@@ -446,7 +446,7 @@ c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Ch
 ,,,Cambodia_Lab Tests Orders,Cambodia_Lab Tests Orders,Lab Test Orders,,,,Question,Text,,,,,,,,,,,
 ,,,Cambodia_Lab Tests Results Attachment,Cambodia_Lab Tests Results Attachment,Lab Test Results Attachment,,,,Image,Complex,ImageUrlHandler,,,,,,,,,,
 ,,,Cambodia_Lab Tests Results Notes,Cambodia_Lab Tests Results Notes,Notes,កំណត់ត្រា,,,Question,Text,,,,,,,,,,,
-,,,Cambodia_Lab Tests Results Form,Cambodia_Lab Tests Results Form,Lab Test Results,បញ្ជាពិសោធន៍,,,ConvSet,N/A,,,Cambodia_Urinalysis; Cambodia_Fasting Blood Glucose; Cambodia_PP Blood Glucose; Cambodia_Malaria Rapid Test; Cambodia_Lab Tests Results Notes,,,,,,,,
+,,,Cambodia_Lab Tests Results Form,Cambodia_Lab Tests Results Form,Lab Results,បញ្ជាពិសោធន៍,,,ConvSet,N/A,,,Cambodia_Urinalysis; Cambodia_Fasting Blood Glucose; Cambodia_PP Blood Glucose; Cambodia_Malaria Rapid Test; Cambodia_Lab Tests Results Notes,,,,,,,,
 ,,,Lab order fulfillment form,Lab order fulfillment form,Lab order fulfillment form,បញ្ជាពិសោធន៍,,,ConvSet,N/A,,,Cambodia_Lab Tests Results Notes; Cambodia_Lab Tests Results Attachment,,,,,,,,
 ,,,Cambodia_Zone A,Cambodia_Zone A,Zone A,តំបន់ A,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Zone B,Cambodia_Zone B,Zone B,តំបន់ B,,,Misc,N/A,,,,,,,,,,,
