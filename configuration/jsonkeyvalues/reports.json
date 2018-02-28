@@ -8,7 +8,7 @@
   "report.opdrecbook.drugOrder.orderType": "131168f4-15f5-102d-96e4-000c29c2a5d7",
   "report.opdrecbook.gestation.concept": "Gestation",
   "report.opdrecbook.referredFrom.concept": "Referred From",
-  "report.opdrecbook.oldCase.concept": "Old Case",
+  "report.opdrecbook.newCase.concept": "New Case",
   "report.opdrecbook.symptoms.concept": "Chief Complaint",
   "report.opdrecbook.diagnosis.concept": "81c5840e-3f10-11e4-adec-0800271c1b75",
   "report.opdrecbook.referredTo.concept": "Referred To",
