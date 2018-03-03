@@ -112,7 +112,7 @@ def execute() :
         insertConceptToOfflineConcepts(concepts[index], uuid, name)
 
 def getTopLevelParents() :
-    query = "select DISTINCT concept_id from concept_name where name = 'All Observation Templates' or name = 'Registration Offline Concepts'"
+    query = "select DISTINCT concept_id from concept_name where name = 'All Observation Templates' or name = 'Registration Offline Concepts' or name = 'Diagnosis Set of Sets' or name = 'Visit Diagnoses'"
     db = MySQLdb.connect("localhost","root","password","openmrs")
     cursor = db.cursor()
     topLevelParents = []
