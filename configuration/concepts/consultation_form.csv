@@ -31,7 +31,7 @@ c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Ch
 ,,,Cambodia_Other General Symptoms,Cambodia_Other General Symptoms,General Details,លម្អិតទូទៅ,,,Misc,Text,,,,,,,,,,,
 ,,,Cambodia_General Symptoms,Cambodia_General Symptoms,GENERAL Symptoms,រោគសញ្ញាទូទៅ,,,Question,Coded,,Cambodia_Fever; Cambodia_Chills; Cambodia_Weakness; Cambodia_Weight Loss; ,,,,,,,,,
 ,,,Cambodia_Sore Throat,Cambodia_Sore Throat,sore throat,ឈឺក,,,Misc,N/A,,,,,,,,,,,
-,,,Cambodia_Sinus Drainage,Cambodia_Sinus Drainage,sinus drainage,ហូរខ្ទុះក្នុងប្រហោងឆ្អឹងច្រមុះ,,,Misc,N/A,,,,,,,,,,,
+,,,Cambodia_Sinus Drainage,Cambodia_Sinus Drainage,runny nose,ហូរខ្ទុះក្នុងប្រហោងឆ្អឹងច្រមុះ,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Earache or Drainage,Cambodia_Earache or Drainage,earache/drainage,ឈឺត្រចៀក/ហូរខ្ទុះ,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Blurred Vision,Cambodia_Blurred Vision,blurred vision,ព្រិលភ្នែក,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_HEENT Symptoms,Cambodia_HEENT Symptoms,HEENT Symptoms,រោគសញ្ញា ក្បាល ភ្នែក ត្រចៀក ច្រមុះ បំពង់ក,,,Question,Coded,,Cambodia_Sore Throat; Cambodia_Sinus Drainage; Cambodia_Earache or Drainage; Cambodia_Blurred Vision; ,,,,,,,,,
