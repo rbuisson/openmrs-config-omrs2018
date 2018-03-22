@@ -1,4 +1,5 @@
 Uuid,Void/Retire,Short name:en,Fully specified name:en,Data class,Data Type,_version:1
+,,Implant,Cambodia_Implant,Misc,Text,
 ,,Capsule,Cambodia_Capsule,Misc,Text,
 ,,Inhaler,Cambodia_Inhaler,Misc,Text,
 ,,Drops,Cambodia_Drops,Misc,Text,
@@ -98,3 +99,8 @@ ad39d4a9-5bfe-4de9-915c-f0f3dec88f52,,Dextrose 5%,Cambodia_Dextrose 5%,Drug,Text
 ,,Dextrose 10%,Cambodia_Dextrose 10%,Drug,Text,
 ,,Lactate Ringer (LR),Cambodia_Lactate Ringer (LR),Drug,Text,
 ,,Sodium Chloride 0.9%,Cambodia_Sodium Chloride 0.9%,Drug,Text,
+,,OK Pill,Cambodia_OK Pill,Drug,Text,
+,,OK Injection,Cambodia_OK Injection,Drug,Text,
+,,Condom,Cambodia_Condom,Drug,Text,
+,,Jadelle trocar,Cambodia_Jadelle trocar,Drug,Text,
+,,IUD,Cambodia_IUD,Drug,Text,
