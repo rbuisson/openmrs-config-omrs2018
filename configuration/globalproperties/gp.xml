@@ -31,7 +31,7 @@
     </globalProperty>
     <globalProperty>
       <property>bahmniOfflineSync.addressEntriesSyncStrategy.addressEntries</property>
-      <value>[{"userGeneratedId":"170401"},{"userGeneratedId":"060807"},{"userGeneratedId":"060203"}]</value>
+      <value>[{"userGeneratedId":"1704"},{"userGeneratedId":"1709"},{"userGeneratedId":"0608"},{"userGeneratedId":"0603"},{"userGeneratedId":"0602"}]</value>
     </globalProperty>
   </globalProperties>
 </config>
