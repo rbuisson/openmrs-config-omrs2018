@@ -1,0 +1,1 @@
+update address_hierarchy_entry set user_generated_id = "00" where name = "addresshierarchy.cambodia";
