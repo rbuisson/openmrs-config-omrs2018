@@ -17,6 +17,10 @@
       <value></value>
     </globalProperty>
     <globalProperty>
+      <property>emrapi.visitExpireHours</property>
+      <value>120</value>
+    </globalProperty>
+    <globalProperty>
       <property>bahmni.primaryIdentifierType</property>
       <value>8d793bee-c2cc-11de-8d13-0010c6dffd0f</value>
     </globalProperty>
