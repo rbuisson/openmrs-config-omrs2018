@@ -13,4 +13,4 @@ insert into concept_class (name, description, date_created, creator, uuid) value
 insert into concept_class (name, description, date_created, creator, uuid) values ("MicroTest", "Micro Tests",now(),1,uuid() );
 insert into order_type_class_map values (7, 38);
 insert into order_type_class_map values (7, 39);
-update concept_class set description="Serology Tests" where uuid="33a6291c-8a92-11e4-977f-0800271c1b75";
+update concept_class set description="Serology Tests" where name="LabTest";
