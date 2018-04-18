@@ -69,13 +69,18 @@
         join patient_identifier pi on v.patient_id = pi.patient_id 
         join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id 
         join global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid 
-        join person p on p.person_id = v.patient_id join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id 
+        join person p on p.person_id = v.patient_id
+        join location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id 
         left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = ( 
           select visit_attribute_type_id from visit_attribute_type where name="Admission Status" 
         ) and va.voided = 0 
         where v.date_stopped is null AND v.voided = 0 and v.patient_id not in (
-          select distinct person_id from obs join encounter on encounter.encounter_id = obs.encounter_id join visit on encounter.visit_id = visit.visit_id where visit.date_stopped is null 
-        ) order by v.date_started asc</value>
+          select distinct person_id from obs
+          join encounter on encounter.encounter_id = obs.encounter_id
+          join visit on encounter.visit_id = visit.visit_id
+          where visit.date_stopped is null and not encounter.encounter_type = "2" 
+) order by v.date_started asc
+</value>
     </globalProperty>
     <globalProperty>
       <property>emrapi.sqlSearch.activePatients</property>
