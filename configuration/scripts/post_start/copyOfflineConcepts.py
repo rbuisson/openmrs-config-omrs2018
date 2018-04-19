@@ -1,15 +1,17 @@
 import MySQLdb
 import uuid
 import datetime
+import sys
 
-db = MySQLdb.connect("localhost","root","password","openmrs")
+unix_socket = sys.argv[1]
+db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
 cursor = db.cursor()
 
 datetimenow = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'));
 
 sql = "select DISTINCT concept_id from concept_name where name = 'Offline Concepts'"
 def isOfflineConceptsAlreadyPresent( sql ):
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     try:
         cursor.execute(sql)
@@ -29,7 +31,7 @@ if isOfflineConceptsAlreadyPresent(sql) == 0:
     insertConcept = "INSERT into concept (retired, datatype_id, class_id, is_set, creator, date_created, uuid) VALUES (0,1,10,1,1,'"+ datetimenow +"', '" + conceptUuid + "');"
     getConceptId = "SELECT concept_id from concept where uuid = '" + conceptUuid + "'";
 
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     try:
         cursor.execute(insertConcept)
@@ -45,7 +47,7 @@ if isOfflineConceptsAlreadyPresent(sql) == 0:
         print ""
     db.close()
 else:
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     try:
         cursor.execute(sql)
@@ -58,7 +60,7 @@ else:
 
 
 def insertConceptToOfflineConcepts( conceptId, conceptUuid, conceptName ):
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     query = "select count(concept_set_id) from concept_set where concept_id = "+ str(conceptId) + " and concept_set = " + offlineConceptSetId;
     cursor.execute(query)
@@ -79,7 +81,7 @@ def insertConceptToOfflineConcepts( conceptId, conceptUuid, conceptName ):
 concepts = []
 
 def getAllConcepts(conceptIds) :
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     for conceptId in conceptIds:
         query = "select concept_id from concept_set where concept_set = "+str(conceptId)+";"
@@ -94,7 +96,7 @@ def getAllConcepts(conceptIds) :
 def getConceptDetails(conceptId) :
     conceptDetails = []
     query = "select c.uuid, cn.name from concept c, concept_name cn where c.concept_id = cn.concept_id and cn.concept_name_type = 'FULLY_SPECIFIED' and c.concept_id = "+str(conceptId)+";"
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     try:
         cursor.execute(query)
@@ -113,7 +115,7 @@ def execute() :
 
 def getTopLevelParents() :
     query = "select DISTINCT concept_id from concept_name where name = 'All Observation Templates' or name = 'Registration Offline Concepts' or name = 'Diagnosis Set of Sets' or name = 'Visit Diagnoses'"
-    db = MySQLdb.connect("localhost","root","password","openmrs")
+    db = MySQLdb.connect("localhost","root","password","openmrs",unix_socket=unix_socket)
     cursor = db.cursor()
     topLevelParents = []
     try:
