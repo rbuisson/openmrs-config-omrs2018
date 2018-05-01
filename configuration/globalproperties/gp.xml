@@ -18,7 +18,7 @@
     </globalProperty>
     <globalProperty>
       <property>emrapi.visitExpireHours</property>
-      <value>120</value>
+      <value>96</value>
     </globalProperty>
     <globalProperty>
       <property>bahmni.primaryIdentifierType</property>
