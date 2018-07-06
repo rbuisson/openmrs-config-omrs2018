@@ -41,6 +41,10 @@
       <property>bahmniOfflineSync.addressEntriesSyncStrategy.addressEntries</property>
       <value>[{"userGeneratedId":"1704"},{"userGeneratedId":"1709"},{"userGeneratedId":"0608"},{"userGeneratedId":"0603"},{"userGeneratedId":"0602"}]</value>
     </globalProperty>
+        <globalProperty>
+      <property>bahmniOfflineSync.addressEntriesSyncStrategy.locations</property>
+      <value>[{"uuid":"265e0732-aa46-4993-bf8b-c85bed90a70d"},{"uuid":"51d28b1b-244d-4c5f-9938-f88adb229561"},{"uuid":"6076eb38-4a82-4990-a036-d2c32615d980"},{"uuid":"6e91497c-5f68-451f-b5c1-d37a31235d43"},{"uuid":"a14a55b4-f042-4f84-9ebc-0101c450f0c7"},{"uuid":"ac29ca41-16cc-4471-87b4-5d74dacbafda"},{"uuid":"b55b882d-24c7-4c54-945c-ac83e714ccf3"}]</value>
+    </globalProperty>
     <globalProperty>
       <property>emrapi.sqlSearch.awaitingMedicationDispense</property>
       <value>SELECT entries.name, entries.identifier, entries.uuid, entries.activevisituuid, Date_format(entries.order_time, '%b %d %Y %H:%i') 
