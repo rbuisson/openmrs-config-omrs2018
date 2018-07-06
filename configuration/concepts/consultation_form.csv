@@ -1,5 +1,5 @@
 Uuid,Same as mappings,Void/Retire,Fully specified name:en,Fully specified name:km,Short name:en,Short name:km,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1250
-,,,Cambodia_Chief Complaint,Cambodia_Chief Complaint,Chief Complaint,ការត្អួញត្អែរ,,,Misc,Text,,,,,,,,,,,
+,,,Cambodia_Chief Complaint,Cambodia_Chief Complaint,Unused Chief Complaint,ការត្អួញត្អែរ,,,Misc,Text,,,,,,,,,,,
 ,,,Cambodia_CD stool/urine normal,Cambodia_CD stool/urine normal,stool/urine normal,,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_CD appetite normal,Cambodia_CD appetite normal,good appetite,,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_No Dysuria,Cambodia_No Dysuria,no dysuria,,,,Misc,N/A,,,,,,,,,,,
@@ -10,7 +10,7 @@ Uuid,Same as mappings,Void/Retire,Fully specified name:en,Fully specified name:k
 ,,,Cambodia_History of Present Illness,Cambodia_History of Present Illness,History of Present Illness,ប្រវត្តិជំងឺបច្ចុប្បន្ន,,,Misc,Text,,,,,,,,,,,
 ,,,Cambodia_Progress Note,Cambodia_Progress Note,Progress Note,ការវិវត្តិជំងឺ,,,Misc,Text,,,,,,,,,,,
 ,,,Cambodia_New Case,Cambodia_New Case,New case of complaint?,ការត្អួញត្អែរថ្មី?,,,Question,Boolean,,,,,,,,,,,
-c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Chief Complaint Form,Chief Complaint,ការត្អួញត្អែរ,,,ConvSet,N/A,,,Cambodia_Chief Complaint; Cambodia_History of Present Illness; Cambodia_New Case,,,,,,,,
+c59a235b-606c-43dc-8d4a-b2f772da450b,,,Cambodia_Chief Complaint Form,Cambodia_Chief Complaint Form,Chief Complaint Form,ការត្អួញត្អែរ,,,ConvSet,N/A,,,Chief Complaint; Cambodia_History of Present Illness; Cambodia_New Case,,,,,,,,
 ,,,Cambodia_Chills,Cambodia_Chills,chills,ញាក់,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Weakness,Cambodia_Weakness,weakness,ខ្សោយ,,,Misc,N/A,,,,,,,,,,,
 ,,,Cambodia_Weight Loss,Cambodia_Weight Loss,weight loss,ស្រកទម្ងន់,,,Misc,N/A,,,,,,,,,,,
