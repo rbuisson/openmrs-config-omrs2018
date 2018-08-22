@@ -3,12 +3,15 @@
 ---
 
 # OpenMRS config for the <br>_OpenMRS distribution for Cambodia_
-This is the OpenMRS backend configuration for the _OpenMRS distribution for Cambodia_.
+This is the OpenMRS backend configuration for the [_OpenMRS distribution for Cambodia_](https://github.com/mekomsolutions/openmrs-distro-cambodia).
 This configuration is designed to be loaded by
 - The [Initializer module](https://github.com/mekomsolutions/openmrs-module-initializer), and
 - The [Address Hierarchy module](https://github.com/openmrs/openmrs-module-addresshierarchy). 
 
 ---
+
+# Demo
+http://www.mekomsolutions.com/cambodiademo
 
 # Background
 http://www.mekomsolutions.com/news/#news_14-02-2017
