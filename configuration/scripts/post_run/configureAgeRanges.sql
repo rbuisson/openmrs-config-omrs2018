@@ -1,6 +1,14 @@
 delete from reporting_age_group;
-insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (1, "All", "All Ages", 0,0,200,-0,0);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (1, "All", "All Ages", 0,0,200,0,0);
 insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (2, "Ch <14", "All Ages", 0,0,14,-1,1);
 insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (3, "Ad 14+", "All Ages", 14,0,200,0,2);
 insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (4, "Ch <14", "Adult Child", 0,0,14,-1,1);
 insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (5, "Ad 14+", "Adult Child", 14,0,200,0,2);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (6, "0-28d", "hc1", 0,0,0,28,0);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (7, "1-12m", "hc1", 0,29,1,-1,1);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (8, "1-4y", "hc1", 1,0,5,-1,2);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (9, "5-14y", "hc1", 5,0,15,-1,3);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (10, "15-24y", "hc1", 15,0,25,-1,4);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (11, "25-49y", "hc1", 25,0,50,-1,5);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (12, "50-64y", "hc1", 50,0,65,-1,6);
+insert into reporting_age_group ( id, name, report_group_name, min_years, min_days, max_years, max_days, sort_order ) values (13, "65y+", "hc1", 65,0,200,0,7);
