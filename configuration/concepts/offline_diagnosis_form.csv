@@ -1,4 +1,7 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:km,Short name:en,Short name:km,Description:en,Description:km,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1300
 ,,,Non-coded Offline Diagnosis,Non-coded Offline Diagnosis,Non-coded Offline Diagnosis,Non-coded Offline Diagnosis,,,Question,Text,,,,,,,,,,,
-,,,Offline Diagnosis Data,Offline Diagnosis Data,Offline Diagnosis,Offline Diagnosis,,,Concept Details,N/A,,,Offline Diagnosis; Non-coded Offline Diagnosis,,,,,,,,
-,,,Cambodia_Offline Diagnosis Form,Cambodia_Offline Diagnosis Form,Offline Diagnosis,Offline Diagnosis,,,ConvSet,N/A,,,Offline Diagnosis Data,,,,,,,,
+,,,Offline Diagnosis Certainty,Offline Diagnosis Certainty,Certainty,Certainty,,,Question,Coded,,Confirmed; Presumed;,,,,,,,,,
+,,,Offline Diagnosis order,Offline Diagnosis order,"Primary:new case, Secondary:old case","Primary:new case, Secondary:old case",,,Question,Coded,,Primary; Secondary;,,,,,,,,,
+,,,Offline Diagnosis Data,Offline Diagnosis Data,Diagnosis,Diagnosis,,,Concept Details,N/A,,,Offline Diagnosis; ,,,,,,,,
+,,,Offline Diagnosis Entry,Offline Diagnosis Entry,Entry,Entry,,,ConvSet,N/A,,,Offline Diagnosis Data;Offline Diagnosis order; Offline Diagnosis Certainty;,,,,,,,,
+,,,Cambodia_Offline Diagnosis Form,Cambodia_Offline Diagnosis Form,Offline Diagnosis,Offline Diagnosis,,,ConvSet,N/A,,,Offline Diagnosis Entry,,,,,,,,
