@@ -39,7 +39,7 @@
     </globalProperty>
     <globalProperty>
       <property>bahmniOfflineSync.addressEntriesSyncStrategy.addressEntries</property>
-      <value>[{"userGeneratedId":"17040115"},{"userGeneratedId":"17040116"},{"userGeneratedId":"06080702"},{"userGeneratedId":"06080703"},{"userGeneratedId":"06080704"},{"userGeneratedId":"06080705"},{"userGeneratedId":"06080706"}]</value>
+      <value>[{"userGeneratedId":"1704"},{"userGeneratedId":"0608"}]</value>
     </globalProperty>
         <globalProperty>
       <property>bahmniOfflineSync.addressEntriesSyncStrategy.locations</property>
